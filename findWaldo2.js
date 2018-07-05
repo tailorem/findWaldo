@@ -6,10 +6,6 @@ function findWaldo(arr, found) {
   })
 }
 
-// if (arr[i] === "Waldo") {
-//     found(i);   // execute callback
-//   }
-
 function actionWhenFound(index) {
   console.log("Found him at index" + index + "!");
 }
